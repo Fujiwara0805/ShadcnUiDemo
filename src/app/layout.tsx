@@ -16,9 +16,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja">
+    <div lang="ja">
       <Header />
       <body className={notoSansJp.className}>{children}</body>
-    </html>
+    </div>
   );
 }
